@@ -32,4 +32,4 @@ if __name__ == "__main__":
 
     term = sys.argv[1]
     for name, email in search(term):
-        print name, email
+        print("%s,%s" % (name, email))
